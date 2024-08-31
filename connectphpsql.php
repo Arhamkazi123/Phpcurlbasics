@@ -1,9 +1,9 @@
 <?php
 
-$host = "sql12.freemysqlhosting.net";  // e.g., sql123.freemysqlhosting.net
-$username = "sql12727670";  // e.g., sqluser
-$password = "YMBfNkbLlT";  // Your password
-$database = "sql12727670";  // Your database name
+$host = "";  // e.g., sql123.freemysqlhosting.net
+$username = "";  // e.g., sqluser
+$password = "";  // Your password
+$database = "";  // Your database name
 
 // Create connection
 $conn = new mysqli($host, $username, $password, $database);
