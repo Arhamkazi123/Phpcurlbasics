@@ -27,9 +27,9 @@
 if (isset($_POST['name'])) {
 
     try {
-        $dsn = 'mysql:host=sql12.freemysqlhosting.net;dbname=sql12727670';
-        $username = 'sql12727670';
-        $password = 'YMBfNkbLlT';
+        $dsn = '';
+        $username = '';
+        $password = '';
 
         $id = $_POST['pid'];
         $name = $_POST['name'];
