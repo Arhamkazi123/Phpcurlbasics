@@ -1,8 +1,8 @@
 <?php
 
-$dsn = 'mysql:host=sql12.freemysqlhosting.net;dbname=sql12727670';
-$username = 'sql12727670';
-$password = 'YMBfNkbLlT';
+$dsn = '';
+$username = '';
+$password = '';
 
 $pdo = new PDO($dsn, $username, $password);
 $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
